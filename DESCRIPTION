@@ -1,0 +1,20 @@
+Package: aoucohorts
+Type: Package
+Title: AoU Cohorts for DQ 
+Version: 0.0.1
+Author: Lina sulieman and Karthik Natarajan [aut, cre]
+Maintainer: Karthik Natarajan <kn2174@cumc.columbia.edu>
+Description: Characterisation: Examine Cohort Diagnostics for a set of cohorts on the AoU Curated Data Repository
+Depends:
+    DatabaseConnector (>= 2.2.0)
+Imports:
+	CohortDiagnostics
+Suggests:
+    knitr,
+    rmarkdown,
+    ROhdsiWebApi,
+    OhdsiRTools
+License: Apache License 2.0
+VignetteBuilder: knitr
+LazyData: TRUE
+RoxygenNote: 7.1.1
